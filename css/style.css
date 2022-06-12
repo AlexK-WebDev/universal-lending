@@ -498,4 +498,95 @@ body {
     width: 80%;
   }
 }
+
+/* FORM-BLOCK */
+.form-block {
+  background: #323969;
+  padding: 85px 0 85px 0;
+}
+
+.form-block__row {
+  text-align: center;
+}
+
+.form-block__title, .form-block__terms {
+  color: #fff;
+}
+
+.form-block__title {
+  margin: 0 0 95px 0;
+}
+
+.form-block__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1152px) {
+  .form-block__body {
+    flex-direction: column;
+  }
+  .form-block__body input {
+    margin: 0 0 20px 0;
+  }
+  .form-block__body input:nth-child(3) {
+    margin: 0 0 80px 0;
+  }
+  .form-block__body input:last-child {
+    margin: 0;
+  }
+}
+
+.form-block__body input {
+  background: #646c9f;
+  text-transform: uppercase;
+  color: #fff;
+  width: 260px;
+  padding: 18px 0 16px 29px;
+  max-height: 50px;
+  border-radius: 3px;
+}
+
+.form-link__uppertext {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.form-link__uppertext::before {
+  content: url(../../img/icons/4.png);
+  position: absolute;
+  top: -55px;
+  left: 10px;
+}
+
+.form-link__uppertext::after {
+  position: absolute;
+  content: '30 days free trial for all.';
+  right: 20px;
+  top: -55px;
+  text-transform: lowercase;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+.form-link {
+  display: inline-block;
+  max-height: 50px;
+  padding: 18px 0 16px 0px;
+  min-width: 260px;
+}
+
+.form-link:hover {
+  background: #fff;
+  color: #ff6d6d;
+  border: 1px solid #ff6d6d;
+}
+
+.form-block__terms {
+  font-weight: 300;
+  margin: 50px 0 0 0;
+}
 /*# sourceMappingURL=style.css.map */
