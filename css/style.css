@@ -556,7 +556,7 @@ body {
 }
 
 .form-link__uppertext::before {
-  content: url(../../img/icons/4.png);
+  content: url(../img/icons/4.png);
   position: absolute;
   top: -55px;
   left: 10px;
