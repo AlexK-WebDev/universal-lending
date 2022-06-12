@@ -403,4 +403,73 @@ body {
 .responsive__text {
   margin: 35px 0 0 0;
 }
+
+/* STUFF */
+.stuff {
+  padding: 110px 0 80px 0;
+  background: url(../../img/stuff/bg.jpg) center center/cover no-repeat;
+}
+
+.stuff__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stuff__cards-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stuff__cards-item {
+  flex: 0 0 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__image {
+  width: 76px;
+  height: 76px;
+  background: #898993;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2.27;
+  letter-spacing: 0.88px;
+  text-align: center;
+  color: #fff;
+}
+
+.card__subtitle {
+  font-weight: 500;
+  line-height: 3.13;
+  text-align: center;
+  color: #ff6d6d;
+}
+
+.card__text {
+  font-style: italic;
+  line-height: 1.63;
+  letter-spacing: 0.64px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.66);
+}
+
+.stuff__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 95px 0 0 0;
+}
+
+.stuff__image {
+  margin: 0 40px 10px 40px;
+}
 /*# sourceMappingURL=style.css.map */
