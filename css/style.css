@@ -540,9 +540,10 @@ body {
 }
 
 .form-block__body input {
-  background: #646c9f;
+  background: #b2b6cc;
   text-transform: uppercase;
   color: #fff;
+  font-weight: 500;
   width: 260px;
   padding: 18px 0 16px 29px;
   max-height: 50px;
