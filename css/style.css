@@ -195,7 +195,6 @@ body {
   font-weight: 500;
   line-height: 3.13;
   letter-spacing: 3.2px;
-  text-align: left;
   text-transform: uppercase;
   color: #ff6d6d;
 }
@@ -471,5 +470,32 @@ body {
 
 .stuff__image {
   margin: 0 40px 10px 40px;
+}
+
+/* AWESOME */
+.awesome {
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+
+@media (max-width: 992.98px) {
+  .awesome {
+    padding: 50px 10px 0 10px;
+  }
+}
+
+.awesome .awesome__title {
+  margin: 0 0 45px 0;
+}
+
+.awesome .awesome__text {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+@media (max-width: 992.98px) {
+  .awesome .awesome__image img {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
