@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+.footer__row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__text, .footer__link a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.56px;
+  color: rgba(40, 40, 40, 0.66);
+}
+
+.footer__title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2.27;
+  letter-spacing: 0.88px;
+  color: #282828;
+}
+
+.footer__subscribe-btn {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 18px 0 16px 0;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=footer.css.map */
