@@ -82,7 +82,7 @@ body {
 
 /* MAIN-PAGE */
 .main-page {
-  background: url(/img/main-page/1.jpg) center center/cover no-repeat;
+  background: url(../img/main-page/1.jpg) center center/cover no-repeat;
   max-width: 1467px;
   max-height: 100vh;
   display: flex;
@@ -274,7 +274,7 @@ body {
 /* FEACHERS */
 .features {
   padding: 120px 0 150px 0;
-  background: url(/img/features/BG.jpg) center center/cover no-repeat;
+  background: url(../img/features/BG.jpg) center center/cover no-repeat;
 }
 
 @media (max-width: 992.98px) {
@@ -349,7 +349,7 @@ body {
 /* RERPONSIVE */
 .responsive {
   padding: 90px 0 90px 0;
-  background: url(../../img/responsive/2.png) left center/50% no-repeat;
+  background: url(../img/responsive/2.png) left center/50% no-repeat;
 }
 
 @media (max-width: 1152px) {
@@ -406,7 +406,7 @@ body {
 /* STUFF */
 .stuff {
   padding: 110px 0 80px 0;
-  background: url(../../img/stuff/bg.jpg) center center/cover no-repeat;
+  background: url(../img/stuff/bg.jpg) center center/cover no-repeat;
 }
 
 .stuff__row {
@@ -593,7 +593,7 @@ body {
 /* FOOTER */
 .footer {
   padding: 85px 0 85px 0;
-  background: url(../../img/footer/1.png) right center no-repeat;
+  background: url(../img/footer/1.png) right center no-repeat;
 }
 
 @media (max-width: 992.98px) {

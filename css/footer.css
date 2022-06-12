@@ -1,6 +1,6 @@
 .footer {
   padding: 85px 0 85px 0;
-  background: url(../../img/footer/1.png) right center no-repeat;
+  background: url(../img/footer/1.png) right center no-repeat;
 }
 
 @media (max-width: 992.98px) {
