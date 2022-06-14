@@ -470,6 +470,7 @@ body {
 
 .stuff__image {
   margin: 0 40px 10px 40px;
+  width: 100px;
 }
 
 /* AWESOME */
@@ -591,6 +592,14 @@ body {
   margin: 50px 0 0 0;
 }
 
+.form-block__terms a {
+  text-decoration: underline;
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.64px;
+  color: #fff;
+}
+
 /* FOOTER */
 .footer {
   padding: 85px 0 85px 0;
@@ -682,4 +691,3 @@ body {
 .footer__social a {
   margin: 0 15px;
 }
-/*# sourceMappingURL=style.css.map */
