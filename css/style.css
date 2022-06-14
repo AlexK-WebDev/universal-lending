@@ -409,6 +409,12 @@ body {
   background: url(../img/stuff/bg.jpg) center center/cover no-repeat;
 }
 
+@media (max-width: 1152px) {
+  .stuff {
+    padding: 80px 0 60px 0;
+  }
+}
+
 .stuff__row {
   display: flex;
   flex-direction: column;
@@ -469,8 +475,7 @@ body {
 }
 
 .stuff__image {
-  margin: 0 40px 10px 40px;
-  width: 100px;
+  margin: 0 20px 10px 20px;
 }
 
 /* AWESOME */
