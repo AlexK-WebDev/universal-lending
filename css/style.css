@@ -27,9 +27,6 @@ html, body {
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 input, button, textarea {
@@ -267,7 +264,7 @@ body {
 @media (max-width: 1152px) {
   .text-block-bg {
     border-left-width: 300px;
-    border-bottom: 3 solid #ff6d6d;
+    border-bottom: 3px solid #ff6d6d;
   }
 }
 
@@ -613,7 +610,7 @@ body {
 
 @media (max-width: 992.98px) {
   .footer {
-    padding: 50px 0px 50 10px;
+    padding: 50px 0px 50px 10px;
   }
 }
 
